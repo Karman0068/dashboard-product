@@ -1,7 +1,7 @@
 .heading {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: #ffdd00;
+    color: #988715;
 }
 body {
     font-family: Arial, sans-serif;
@@ -32,7 +32,7 @@ button {
     height: 38px;
     width: 120px;
     text-decoration: none;
-    background-color: #003875;
+    background-color: #349ba4;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
@@ -45,11 +45,15 @@ button {
 
 button:hover {
     background-color: #b3c3eb;
+    border: 3px solid #639cd1;
+    border-radius: 5px;
 }
 
 .delete-button {
     height: 26px;
     width: 40px;
+    padding-top: 2px;
+    padding-bottom: -5px;
     text-decoration: none;
     background-color: red;
     color: #fff;
@@ -62,9 +66,17 @@ button:hover {
     transition: background-color 0.3s ease;
 }
 
+.delete-button:hover{
+    height: 22px;
+    width: 36px;
+    background-color: rgba(219, 3, 3, 0.884);
+    border: 2px solid #ca0505;
+    border-radius: 6px;
+}
+
 h2 {
     font-size: 24px;
-    color: #333;
+    color: #2ec460;
 }
 
 input[type="text"] {
