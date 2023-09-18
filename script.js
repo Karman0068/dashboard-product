@@ -51,7 +51,7 @@ function displayData() {
             
 
             const deleteButton = document.createElement('span');
-            deleteButton.textContent = 'Delete';
+            deleteButton.textContent = 'X';
             deleteButton.className = 'delete-button';
             deleteButton.onclick = () => deleteData(index);
             
